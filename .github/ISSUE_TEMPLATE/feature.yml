@@ -48,7 +48,7 @@ body:
       options:
         - label: Read the [Contributing Guidelines](https://github.com/nexdom-healthtech/lib-template#contributing)).
           required: true
-        - label: Read the [docs](https://github.com/nexdom-healthtech/lib-template#readme).
+        - label: Read the [docs](https://nexdom-healthtech.github.io/lib-template/).
           required: true
         - label: Check that there isn't [already an issue](https://github.com/nexdom-healthtech/lib-template/issues) that request the same feature to avoid creating a duplicate.
           required: true

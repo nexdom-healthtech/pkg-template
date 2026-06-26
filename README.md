@@ -16,7 +16,7 @@
 
 A template for creating NEXDOM flavor libraries **using Vite+ and TypeScript**.
 
-For more examples and information, check the [docs page](https://github.com/nexdom-healthtech/lib-template#readme).
+For more examples and information, check the [docs page](https://nexdom-healthtech.github.io/lib-template/).
 
 ## 💻 Get started
 
