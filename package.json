@@ -1,7 +1,7 @@
 {
   "name": "@nexdom/lib-template",
   "version": "0.0.0",
-  "private": "true",
+  "private": true,
   "description": "A template for creating NEXDOM flavor libraries.",
   "keywords": [
     "lib",
