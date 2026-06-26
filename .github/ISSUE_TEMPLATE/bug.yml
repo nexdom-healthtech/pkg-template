@@ -1,0 +1,47 @@
+name: 🐞 Bug report
+description: Report an issue
+type: Bug
+title: "BUG | `functionName` | "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        Please follow the one of the following title formats:
+        - ``BUG | `functionName` | Short Description``
+
+        For example:
+        ```
+        BUG | `maskFormatter` | Error when string is empty
+        ```
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide a step by step for error reproduction.
+      placeholder: Reproduction
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following
+      options:
+        - label: Read the [Contributing Guidelines](https://github.com/nexdom-healthtech/lib-template#contributing)).
+          required: true
+        - label: Read the [docs](https://github.com/nexdom-healthtech/lib-template#readme).
+          required: true
+        - label: Check that there isn't [already an issue](https://github.com/nexdom-healthtech/lib-template/issues) that reports the same bug to avoid creating a duplicate.
+          required: true
+        - label: Make sure the error is in this project and not a framework-specific issue.
+          required: true

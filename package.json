@@ -1,0 +1,75 @@
+{
+  "name": "@nexdom/lib-template",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "A template for creating NEXDOM flavor libraries.",
+  "keywords": [
+    "lib",
+    "nexdom",
+    "typescript",
+    "utils"
+  ],
+  "homepage": "https://github.com/nexdom-healthtech/lib-template#readme",
+  "bugs": {
+    "url": "https://github.com/nexdom-healthtech/lib-template/issues"
+  },
+  "license": "MIT",
+  "author": "Author Name <author.name@nexdom.tec.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdom-healthtech/lib-template.git",
+    "home": "https://github.com/nexdom-healthtech/lib-template#readme"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "prepublishOnly": "vpr build",
+    "prepare": "vp config",
+    "depcruise": "depcruise src --output-type err-long",
+    "depcruise:graph": "depcruise src --output-type dot| dot -T svg > dependencygraph.svg",
+    "depcruise:graph:no-tests": "depcruise src --exclude \"__tests__\"  --output-type dot | dot -T svg > dependencygraph.no-tests.svg",
+    "docs:dev": "vitepress dev docs --host",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "@types/node": "^25.6.2",
+    "@typescript/native-preview": "7.0.0-dev.20260509.2",
+    "@vitest/coverage-v8": "4.1.9",
+    "bumpp": "^11.1.0",
+    "dependency-cruiser": "^17.4.3",
+    "jsdom": "^29.1.1",
+    "oxc-minify": "^0.137.0",
+    "semantic-release": "^25.0.5",
+    "typescript": "^6.0.3",
+    "vite-plus": "^0.2.1",
+    "vitepress": "2.0.0-alpha.17",
+    "vue": "^3.5.38"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.9.0",
+      "onFail": "download"
+    }
+  }
+}
