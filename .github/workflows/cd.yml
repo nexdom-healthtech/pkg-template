@@ -1,20 +1,12 @@
 name: CD
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - main
-      - beta
-      - alpha
+  push:
+    branches: [main, beta, alpha]
 
 jobs:
   cd:
-    if: ${{ github.event_name != 'pull_request' }}
     name: Build and deploy docs to GitHub Pages
-    outputs:
-      new_release_published: ${{ steps.release.outputs.new_release_published }}
     permissions:
       contents: write
       issues: write
