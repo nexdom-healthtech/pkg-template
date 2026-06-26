@@ -1,5 +1,5 @@
 ---
-lastlastUpdated: false
+lastUpdated: false
 editLink: false
 sidebar: false
 footer: false
