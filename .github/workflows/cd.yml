@@ -34,8 +34,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.npmToken }}
         run: vpr release
 
-      - name: Pack
-        run: vpr pack:docs
+      - name: Build
+        run: vpr docs:build
 
       - name: Upload static files as artifact
         id: deployment
