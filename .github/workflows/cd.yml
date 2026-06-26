@@ -1,9 +1,7 @@
 name: CD
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
     branches:
       - main
       - beta
@@ -11,7 +9,7 @@ on:
 
 jobs:
   cd:
-    if: ${{ github.event.pull_request.merged == true }}
+    if: ${{ github.event_name != 'pull_request' }}
     name: Build and deploy docs to GitHub Pages
     permissions:
       contents: write
