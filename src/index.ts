@@ -7,5 +7,5 @@
  * ```
  */
 export function sayHello() {
-  return "Hello, NEXTER!";
+  return "Hello, NEXTERS!";
 }
