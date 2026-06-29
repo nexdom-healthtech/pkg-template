@@ -20,6 +20,7 @@ export default defineConfig({
     darkModeSwitchLabel: "Tema Escuro",
     darkModeSwitchTitle: "Mudar para Modo Escuro",
     lightModeSwitchTitle: "Mudar para Modo Claro",
+    returnToTopLabel: "Retornar ao topo",
     outline: { label: "Nesta página" },
     docFooter: { prev: "Anterior", next: "Próximo" },
     search: {

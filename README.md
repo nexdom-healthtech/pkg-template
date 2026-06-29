@@ -1,7 +1,7 @@
 # @nexdom/lib-template
 
 > [!Warning]
-> This projects is a template designed for GitHub projects. It is ready to published on GitHub Pages and NPM.
+> This projects is a template designed for GitHub projects. It is ready to be published on GitHub Pages and NPM.
 >
 > If you want to publish it on NPM, remove the `"private": true` from the `package.json` and provide a `npmToken` secret to the workflow.
 >

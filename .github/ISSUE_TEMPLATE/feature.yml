@@ -1,54 +1,54 @@
-name: 🚀 Feature proposal
-description: Propose a new feature to be added
-type: Feature
-title: "`functionName` | "
+name: 🚀 Proposta de melhoria
+description: Proponha uma melhoria para ser adicionada ao projeto
+labels: ["enhancement"]
+title: "`nomeDaFuncionalidade` | "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in the project and taking the time to fill out this feature report!
+        Obrigado pelo seu interesse nesse projeto e pelo tempo provisionado para preencher esse formulário!
 
-        Please follow the one of the following title formats:
-        - `` `functionName` | Short Description `` - if related to a specific function
-        - `Short Description` - if it's a general feature request
+        Por favor, siga um dos formatos de título a seguir:
+        - `` `nomeDaFuncionalidade` | Breve Descrição `` - se for algo relacionado a uma funcionalidade específica
+        - `Breve Descrição` - se for uma funcionalidade genérica
 
-        For example:
+        Por exemplo:
         ```
-        `maskFormatter` | Support for custom mask
+        `maskFormatter` | Suporte para campos com máscaras
         ```
   - type: textarea
     id: feature-description
     attributes:
-      label: Clear and concise description of the problem
-      description: "As a developer using this lib I want [goal / wish] so that [benefit]. If you intend to submit a PR for this issue, tell us in the description. Thanks!"
+      label: Descrição clara a concisa do problema
+      description: "Como um desenvolvedor utilizando essa lib [gostaria de...] [para que...]. Se você tem a intenção de implementar uma PR para resolver o reportado anteriormente, no diga aqui também. Obrigado!"
     validations:
       required: true
   - type: textarea
     id: suggested-solution
     attributes:
-      label: Suggested solution
-      description: "In module [xy] we could provide following implementation..."
+      label: Solução sugerida
+      description: "No módulo xyz nós poderíamos implementar..."
     validations:
       required: true
   - type: textarea
     id: alternative
     attributes:
-      label: Alternative
-      description: Clear and concise description of any alternative solutions or features you've considered.
+      label: Alternativa
+      description: Uma descrição clara e concisa para um solução alternativa ou melhorias que possam ser consideradas.
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional context
-      description: Any other context or screenshots about the feature request here.
+      label: Contexto adicional
+      description: Qualquer outro contexto ou screenshots sobre a melhoria que está sendo mencionada aqui.
   - type: checkboxes
     id: checkboxes
     attributes:
-      label: Validations
-      description: Before submitting the issue, please make sure you do the following
+      label: Validações
+      description: Antes de submeter a issue, por favor certifique-se de fazer o seguinte
       options:
-        - label: Read the [Contributing Guidelines](https://github.com/nexdom-healthtech/lib-template#contributing)).
+        - label: Ler o [Contributing Guidelines](https://github.com/nexdom-healthtech/lib-template#contributing)).
           required: true
-        - label: Read the [docs](https://nexdom-healthtech.github.io/lib-template/).
+        - label: Ler a [docs](https://nexdom-healthtech.github.io/lib-template/).
           required: true
-        - label: Check that there isn't [already an issue](https://github.com/nexdom-healthtech/lib-template/issues) that request the same feature to avoid creating a duplicate.
+        - label: Verificar se já não existe uma [issue](https://github.com/nexdom-healthtech/lib-template/issues) criada para tratar este tema, evitando duplicidades.
           required: true
