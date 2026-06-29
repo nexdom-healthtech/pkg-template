@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "lib-template"
+  name: "pkg-template"
   text: "Um template para criar libs"
   tagline: Sinergia em forma de código
   actions:
     - theme: brand
-      text: O que é lib-template?
+      text: O que é pkg-template?
       link: /guide
     - theme: alt
       text: Iniciando
       link: /guide/getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/nexdom-healthtech/lib-template
+      link: https://github.com/nexdom-healthtech/pkg-template
   image:
     light: /light-logo.svg
     dark: /dark-logo.svg

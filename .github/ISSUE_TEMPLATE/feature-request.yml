@@ -46,9 +46,9 @@ body:
       label: Validações
       description: Antes de submeter a issue, por favor certifique-se de fazer o seguinte
       options:
-        - label: Ler o [Contributing Guidelines](https://github.com/nexdom-healthtech/lib-template#contributing)).
+        - label: Ler o [Contributing Guidelines](https://github.com/nexdom-healthtech/pkg-template#contributing)).
           required: true
-        - label: Ler a [docs](https://nexdom-healthtech.github.io/lib-template/).
+        - label: Ler a [docs](https://nexdom-healthtech.github.io/pkg-template/).
           required: true
-        - label: Verificar se já não existe uma [issue](https://github.com/nexdom-healthtech/lib-template/issues) criada para tratar este tema, evitando duplicidades.
+        - label: Verificar se já não existe uma [issue](https://github.com/nexdom-healthtech/pkg-template/issues) criada para tratar este tema, evitando duplicidades.
           required: true

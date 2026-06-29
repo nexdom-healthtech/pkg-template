@@ -1,4 +1,4 @@
-# @nexdom/lib-template
+# @nexdom/pkg-template
 
 After clone this project, **open it inside its devContainer** using [VSCode](https://code.visualstudio.com/download).
 

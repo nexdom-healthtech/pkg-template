@@ -1,5 +1,5 @@
 {
-  "name": "@nexdom/lib-template",
+  "name": "@nexdom/pkg-template",
   "version": "0.0.0",
   "private": true,
   "description": "A template for creating NEXDOM flavor libraries.",
@@ -9,16 +9,16 @@
     "typescript",
     "utils"
   ],
-  "homepage": "https://nexdom-healthtech.github.io/lib-template/",
+  "homepage": "https://nexdom-healthtech.github.io/pkg-template/",
   "bugs": {
-    "url": "https://github.com/nexdom-healthtech/lib-template/issues"
+    "url": "https://github.com/nexdom-healthtech/pkg-template/issues"
   },
   "license": "MIT",
   "author": "Author Name <author.name@nexdom.tec.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexdom-healthtech/lib-template.git",
-    "home": "https://github.com/nexdom-healthtech/lib-template#readme"
+    "url": "git+https://github.com/nexdom-healthtech/pkg-template.git",
+    "home": "https://github.com/nexdom-healthtech/pkg-template#readme"
   },
   "files": [
     "dist"
