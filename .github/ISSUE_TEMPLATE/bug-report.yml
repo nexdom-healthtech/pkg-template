@@ -2,6 +2,7 @@ name: 🐞 Relatar um bug
 description: Avise sobre um problema
 labels: ["bug"]
 title: "BUG | `nomeDaFuncionalidade` | "
+type: bug
 body:
   - type: markdown
     attributes:
@@ -37,7 +38,7 @@ body:
       label: Validations
       description: Antes de submeter a issue, por favor certifique-se de fazer o seguinte
       options:
-        - label: Ler o [Contributing Guidelines](https://github.com/nexdom-healthtech/pkg-template#contributing)).
+        - label: Ler o [Contributing Guidelines](https://github.com/nexdom-healthtech/pkg-template#contributing).
           required: true
         - label: Ler a [docs](https://nexdom-healthtech.github.io/pkg-template/).
           required: true
