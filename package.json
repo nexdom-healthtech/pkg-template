@@ -54,7 +54,6 @@
     "dependency-cruiser": "^17.4.3",
     "jsdom": "^29.1.1",
     "oxc-minify": "^0.137.0",
-    "semantic-release": "^25.0.5",
     "typescript": "^6.0.3",
     "vite-plus": "^0.2.1",
     "vitepress": "2.0.0-alpha.17",
