@@ -43,7 +43,7 @@ import { sayHello } from "@nexdom/pkg-template";
 
 const helloMessage = sayHello();
 
-// Will print "Hello, NEXTER!"
+// Will print "Hello, NEXTERS!"
 console.log(helloMessage);
 ```
 
