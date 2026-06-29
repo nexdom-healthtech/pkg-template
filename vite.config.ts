@@ -16,10 +16,6 @@ export default defineConfig({
         command: "vpx vitepress build docs",
         dependsOn: ["build"],
       },
-      release: {
-        command: "vpx semantic-release",
-        dependsOn: ["build"],
-      },
     },
   },
   pack: {
