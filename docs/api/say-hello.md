@@ -6,7 +6,7 @@ Uma função de exemplo para saudação.
 
 ```ts
 import { sayHello } from "@nexdom/pkg-template";
-// Output: Hello, NEXTER!
+// Output: Hello, NEXTERS!
 console.log(sayHello());
 ```
 
