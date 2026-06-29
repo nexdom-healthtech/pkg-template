@@ -11,6 +11,8 @@ jobs:
   cd:
     if: ${{ github.event_name != 'pull_request' }}
     name: Build and deploy docs to GitHub Pages
+    outputs:
+      new_release_published: ${{ steps.release.outputs.new_release_published }}
     permissions:
       contents: write
       issues: write
@@ -49,7 +51,8 @@ jobs:
           path: docs/.vitepress/dist/
 
   deploy:
-    if: ${{ steps.release.outputs.new_release_published == 'true' }}
+    needs: cd
+    if: ${{ needs.cd.outputs.new_release_published == 'true' }}
     permissions:
       pages: write
       id-token: write
@@ -57,7 +60,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: cd
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
