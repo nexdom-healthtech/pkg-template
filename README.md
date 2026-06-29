@@ -1,5 +1,9 @@
 # @nexdom/pkg-template
 
+[![CI](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/ci.yml/badge.svg)](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/ci.yml)
+[![CD](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/cd.yml/badge.svg)](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/cd.yml)
+[![Dependabot](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/nexdom-healthtech/pkg-template/actions/workflows/dependabot/dependabot-updates)
+
 > [!Warning]
 > This projects is a template designed for GitHub projects. It is ready to be published on GitHub Pages and NPM.
 >
