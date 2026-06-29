@@ -32,11 +32,12 @@ jobs:
           cache: true
           run-install: true
 
-      - name: Release
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v6
+        id: release
         env:
           GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.npmToken }}
-        run: vpr release
 
       - name: Build
         run: vpr docs:build
@@ -48,7 +49,7 @@ jobs:
           path: docs/.vitepress/dist/
 
   deploy:
-    if: ${{ github.ref == 'refs/heads/main' && nextRelease.version != '' }}
+    if: ${{ steps.release.outputs.new_release_published == 'true' }}
     permissions:
       pages: write
       id-token: write
