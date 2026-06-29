@@ -1,4 +1,4 @@
-# @nexdom/lib-template
+# @nexdom/pkg-template
 
 > [!Warning]
 > This projects is a template designed for GitHub projects. It is ready to be published on GitHub Pages and NPM.
@@ -16,26 +16,26 @@
 
 A template for creating NEXDOM flavor libraries **using Vite+ and TypeScript**.
 
-For more examples and information, check the [docs page](https://nexdom-healthtech.github.io/lib-template/).
+For more examples and information, check the [docs page](https://nexdom-healthtech.github.io/pkg-template/).
 
 ## 💻 Get started
 
 ### Install
 
 ```bash
-vp add @nexdom/lib-template
+vp add @nexdom/pkg-template
 # But, if you're not using Vite+ yet...
-npm i @nexdom/lib-template
+npm i @nexdom/pkg-template
 # Or
-pnpm add @nexdom/lib-template
+pnpm add @nexdom/pkg-template
 # Or
-yarn add @nexdom/lib-template
+yarn add @nexdom/pkg-template
 ```
 
 ### Usage
 
 ```ts
-import { sayHello } from "@nexdom/lib-template";
+import { sayHello } from "@nexdom/pkg-template";
 
 const helloMessage = sayHello();
 
@@ -47,7 +47,7 @@ console.log(helloMessage);
 
 Help us improve our community.
 
-Report an [issue](https://github.com/nexdom-healthtech/lib-template/issues) you've found or check our [Contribution Guide](./CONTRIBUTING.md) to learn how to code in our project and open your own PRs to us.
+Report an [issue](https://github.com/nexdom-healthtech/pkg-template/issues) you've found or check our [Contribution Guide](./CONTRIBUTING.md) to learn how to code in our project and open your own PRs to us.
 
 ## 📄 License
 

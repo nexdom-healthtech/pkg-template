@@ -8,15 +8,15 @@ const currentYearText = currentYear > releaseYear ? `-${currentYear}` : "";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "pt-BR",
-  title: "lib-template | NEXDOM",
-  base: "/lib-template/",
-  head: [["link", { rel: "icon", href: "/lib-template/favicon.svg" }]],
+  title: "pkg-template | NEXDOM",
+  base: "/pkg-template/",
+  head: [["link", { rel: "icon", href: "/pkg-template/favicon.svg" }]],
   description: "Um template para a criação validando de libs NEXDOM.",
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/favicon.svg",
-    siteTitle: "lib-template",
+    siteTitle: "pkg-template",
     darkModeSwitchLabel: "Tema Escuro",
     darkModeSwitchTitle: "Mudar para Modo Escuro",
     lightModeSwitchTitle: "Mudar para Modo Claro",
@@ -40,7 +40,7 @@ export default defineConfig({
     lastUpdated: { text: "Atualizado em" },
     editLink: {
       text: "Edite esta página no GitHub",
-      pattern: "https://github.com/nexdom-healthtech/lib-template/edit/main/docs/:path",
+      pattern: "https://github.com/nexdom-healthtech/pkg-template/edit/main/docs/:path",
     },
     notFound: {
       title: "PÁGINA NÃO ENCONTRADA",
@@ -55,11 +55,11 @@ export default defineConfig({
         items: [
           {
             text: "Releases",
-            link: "https://github.com/nexdom-healthtech/lib-template/releases",
+            link: "https://github.com/nexdom-healthtech/pkg-template/releases",
           },
           {
             text: "Contribuindo",
-            link: "https://github.com/nexdom-healthtech/lib-template/blob/main/CONTRIBUTING.md",
+            link: "https://github.com/nexdom-healthtech/pkg-template/blob/main/CONTRIBUTING.md",
           },
         ],
       },
@@ -69,7 +69,7 @@ export default defineConfig({
         {
           text: "Introdução",
           items: [
-            { text: "O que é lib-template?", link: "/guide/" },
+            { text: "O que é pkg-template?", link: "/guide/" },
             { text: "Iniciando", link: "/guide/getting-started" },
           ],
         },
@@ -87,7 +87,7 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/nexdom-healthtech/lib-template" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/nexdom-healthtech/pkg-template" }],
     footer: {
       message: "Lançado sob licença MIT",
       copyright: `Direitos reservados © ${releaseYear}${currentYearText} NEXDOM HealthTech`,

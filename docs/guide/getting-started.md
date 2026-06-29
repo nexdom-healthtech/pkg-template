@@ -18,19 +18,19 @@ Para instalar no seu projeto, execute:
 ::: code-group
 
 ```sh [Vite+]
-$ vp add @nexdom/lib-template
+$ vp add @nexdom/pkg-template
 ```
 
 ```sh [npm]
-$ npm install @nexdom/lib-template
+$ npm install @nexdom/pkg-template
 ```
 
 ```sh [pnpm]
-$ pnpm add @nexdom/lib-template
+$ pnpm add @nexdom/pkg-template
 ```
 
 ```sh [yarn]
-$ yarn add @nexdom/lib-template
+$ yarn add @nexdom/pkg-template
 ```
 
 :::
