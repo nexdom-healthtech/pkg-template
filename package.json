@@ -47,7 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21.1.0",
     "@commitlint/config-conventional": "^21.1.0",
-    "@types/node": "^25.6.2",
+    "@types/node": "^26.0.1",
     "@typescript/native-preview": "7.0.0-dev.20260629.1",
     "@vitest/coverage-v8": "4.1.9",
     "bumpp": "^11.1.0",
