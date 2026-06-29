@@ -48,7 +48,7 @@ jobs:
           path: docs/.vitepress/dist/
 
   deploy:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/main' && nextRelease.version != '' }}
     permissions:
       pages: write
       id-token: write
