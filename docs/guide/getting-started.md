@@ -4,7 +4,7 @@
 
 A primeira coisa a fazer é [criar o seu repositório a partir deste template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-> [!Warning] AVISO
+> [!Warning]
 > Ao fazer isso, não se esqueça de remover este tópico sobre o [Setup do seu repositório](#setup-do-seu-repositório). A menos que ele também venha a servir como um template.
 
 ## Instação
