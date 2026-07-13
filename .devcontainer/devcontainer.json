@@ -12,10 +12,12 @@
       "extensions": [
         "VoidZero.vite-plus-extension-pack",
         "streetsidesoftware.code-spell-checker",
-        "streetsidesoftware.code-spell-checker-portuguese-brazilian"
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+        "Vue.volar"
       ],
       "settings": {
         "js/ts.preferences.importModuleSpecifier": "non-relative",
+        "vue.server.includeLanguages": ["vue", "markdown"],
         "cSpell.language": "en,pt,pt_BR"
       }
     }
