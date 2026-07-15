@@ -52,7 +52,7 @@ jobs:
 
   deploy:
     needs: cd
-    if: ${{ needs.cd.outputs.new_release_published == 'true' }}
+    if: ${{ github.ref_name == 'main' && needs.cd.outputs.new_release_published == 'true' }}
     permissions:
       pages: write
       id-token: write
