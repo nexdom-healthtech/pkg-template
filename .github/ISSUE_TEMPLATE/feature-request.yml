@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Descrição clara a concisa do problema
-      description: "Como um desenvolvedor utilizando essa lib [gostaria de...] [para que...]. Se você tem a intenção de implementar uma PR para resolver o reportado anteriormente, no diga aqui também. Obrigado!"
+      label: Descrição clara e concisa do problema
+      description: "Como um desenvolvedor utilizando essa lib [gostaria de...] [para que...]. Se você tem a intenção de implementar uma PR para resolver o reportado anteriormente, nos diga aqui também. Obrigado!"
     validations:
       required: true
   - type: textarea
