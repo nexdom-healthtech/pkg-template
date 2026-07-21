@@ -20,6 +20,9 @@ vp install
 
 - Check environment missing parts:
 
+> [!Tip]
+> This might be useful if you got some error due to a missing command/shims or wrong dependency version.
+
 ```bash
 vp env doctor
 ```
