@@ -18,7 +18,7 @@
 >
 > Before pushing changes to the `main` branch (through a `pull request`, since straight pushes must be forbidden), the author of the `push` mush have privileges enough to generate tags and release on GitHub.
 
-A template for creating NEXDOM flavor libraries **using Vite+ and TypeScript**.
+A template for creating NEXDOM flavor Node.js libraries **using Vite+ and TypeScript**.
 
 For more examples and information, check the [docs page](https://nexdom-healthtech.github.io/pkg-template/).
 
