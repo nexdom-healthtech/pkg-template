@@ -168,7 +168,7 @@ gitGraph:
     branch fix-something-else
     commit
     checkout beta
-    merge some-great-feature tag: "v1.0.0-beta.1"
+    merge some-great-feature tag: "v1.1.0-beta.1"
     branch improve-ci-cd
     commit
     commit
