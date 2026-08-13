@@ -70,13 +70,15 @@
       [
         "@semantic-release/commit-analyzer",
         {
-          "preset": "conventionalcommits"
+          "preset": "conventionalcommits",
+          "presetConfig": "conventionalcommits"
         }
       ],
       [
         "@semantic-release/release-notes-generator",
         {
-          "preset": "conventionalcommits"
+          "preset": "conventionalcommits",
+          "presetConfig": "conventionalcommits"
         }
       ],
       "@semantic-release/npm",
