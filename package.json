@@ -55,7 +55,7 @@
     "jsdom": "^30.0.0",
     "oxc-minify": "^0.144.0",
     "typescript": "^6.0.3",
-    "vite-plus": "^0.2.2",
+    "vite-plus": "^0.2.8",
     "vitepress": "2.0.0-alpha.17",
     "vitepress-plugin-group-icons": "^1.7.6",
     "vue": "^3.5.40"
