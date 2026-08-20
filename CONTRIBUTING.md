@@ -41,12 +41,20 @@ vpr check
 vp run check
 ```
 
-- Run the unit tests:
+- Run unit tests:
 
 ```bash
 vpr test
 # Or
 vp run test
+```
+
+- Run mutation tests:
+
+```bash
+vpr test:mutations
+# Or
+vp run test:mutations
 ```
 
 - Run architecture checks:
