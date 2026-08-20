@@ -20,9 +20,6 @@ export default defineConfig({
         command: "vpx vitepress preview docs",
         dependsOn: ["docs:build"],
       },
-      "test:mutations": {
-        command: "vpx stryker run",
-      },
     },
   },
   pack: {
