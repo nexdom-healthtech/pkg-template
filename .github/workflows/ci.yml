@@ -40,4 +40,4 @@ jobs:
         run: vpr test:mutations
 
       - name: Static Analysis
-        run: vpr sonar -Dsonar.token=$(SONAR_TOKEN)'
+        run: vpr sonar -Dsonar.token=${{ secrets.SONAR_TOKEN }}
