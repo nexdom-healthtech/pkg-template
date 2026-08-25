@@ -15,6 +15,7 @@
         "streetsidesoftware.code-spell-checker-portuguese-brazilian",
         "Vue.volar",
         "ms-vscode.live-server",
+        "stryker-mutator.stryker-mutator",
         "SonarSource.sonarlint-vscode"
       ],
       "settings": {
