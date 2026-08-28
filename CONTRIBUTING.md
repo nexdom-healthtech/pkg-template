@@ -33,7 +33,7 @@ vp env doctor
 vp env setup
 ```
 
-- Run checks (Lint, formmater and type-check):
+- Run checks (Lint, formatter and type-check):
 
 ```bash
 vpr check

@@ -38,3 +38,6 @@ jobs:
 
       - name: Mutation Test
         run: vpr test:mutations
+
+      - name: Static Analysis
+        run: vpr sonar -Dsonar.token=${{ secrets.SONAR_TOKEN }}

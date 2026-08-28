@@ -20,6 +20,9 @@ export default defineConfig({
         command: "vpx vitepress preview docs",
         dependsOn: ["docs:build"],
       },
+      sonar: {
+        command: "vpx sonar-scanner",
+      },
     },
   },
   pack: {
@@ -44,7 +47,7 @@ export default defineConfig({
     globals: true,
     clearMocks: true,
     environment: "jsdom",
-    coverage: { reporter: ["text"] },
+    coverage: { reporter: ["text", "lcov"] },
     setupFiles: ["src/__tests__/setup.ts"],
   },
 });
