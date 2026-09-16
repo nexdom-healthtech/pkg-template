@@ -21,7 +21,8 @@
     "home": "https://github.com/nexdom-healthtech/pkg-template#readme"
   },
   "files": [
-    "dist"
+    "dist",
+    "AGENTS.md"
   ],
   "type": "module",
   "exports": {
