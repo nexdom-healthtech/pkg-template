@@ -48,7 +48,7 @@ export default defineConfig({
     clearMocks: true,
     environment: "jsdom",
     coverage: {
-      reporter: ["text", "lcov"],
+      reporter: process.env.CI ? ["text", "lcov"] : ["text", "html"],
       thresholds: {
         "100": true,
       },
