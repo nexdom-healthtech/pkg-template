@@ -58,12 +58,11 @@ For agents making changes inside this repo.
 | Unit tests                      | `vp test` (add `--coverage` for coverage; global threshold is 95% lines, see [vite.config.ts](vite.config.ts)) |
 | Mutation tests                  | `vpr test:mutations` (Stryker; break threshold 90%, see [stryker.config.json](stryker.config.json))            |
 | Architecture / dependency rules | `vpr depcruise` (see [.dependency-cruiser.cjs](.dependency-cruiser.cjs))                                       |
-| Static analysis (SonarQube)     | `vpr sonar` (requires `SONAR_TOKEN`; config in [sonar-project.properties](sonar-project.properties))           |
 | Build the library               | `vpr build` / `vp run build`                                                                                   |
 | Docs dev server                 | `vpr docs` / `vp run docs`                                                                                     |
 | Build docs                      | `vpr docs:build`                                                                                               |
 
-Run `vp check`, `vp test --coverage`, and `vpr depcruise` locally before considering a change done — CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of these plus commitlint, mutation testing, and Sonar on every PR.
+Run `vp check`, `vp test --coverage`, and `vpr depcruise` locally before considering a change done — CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of these plus commitlint, mutation testing, and SonarQube on every PR.
 
 ### Code conventions
 
