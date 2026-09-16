@@ -50,7 +50,7 @@ export default defineConfig({
     coverage: {
       reporter: ["text", "lcov"],
       thresholds: {
-        lines: 95,
+        "100": true,
       },
     },
     setupFiles: ["src/__tests__/setup.ts"],
