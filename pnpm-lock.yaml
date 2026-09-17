@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^21.2.1
-        version: 21.2.1(@types/node@26.1.2)(conventional-commits-parser@7.1.1)(typescript@6.0.3)
+        version: 21.2.1(@types/node@26.5.1)(conventional-commits-parser@7.1.1)(typescript@6.0.3)
       '@commitlint/config-conventional':
         specifier: ^21.2.2
         version: 21.2.2
@@ -19,13 +19,13 @@ importers:
         version: 5.0.0
       '@stryker-mutator/core':
         specifier: ^10.0.0
-        version: 10.0.0(@types/node@26.1.2)
+        version: 10.0.0(@types/node@26.5.1)
       '@stryker-mutator/vitest-runner':
         specifier: ^10.0.0
-        version: 10.0.0(@stryker-mutator/core@10.0.0(@types/node@26.1.2))(vitest@4.1.9)
+        version: 10.0.0(@stryker-mutator/core@10.0.0(@types/node@26.5.1))(vitest@4.1.9)
       '@types/node':
-        specifier: ^26.1.2
-        version: 26.1.2
+        specifier: ^26.5.1
+        version: 26.5.1
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260707.2
         version: 7.0.0-dev.20260707.2
@@ -52,13 +52,13 @@ importers:
         version: 6.0.3
       vite-plus:
         specifier: ^0.2.2
-        version: 0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
+        version: 0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
       vitepress:
         specifier: 2.0.0-alpha.19
-        version: 2.0.0-alpha.19(@types/node@26.1.2)(axios@1.18.1)(esbuild@0.28.1)(jiti@2.7.0)(postcss@8.5.28)(typescript@6.0.3)(yaml@2.9.0)
+        version: 2.0.0-alpha.19(@types/node@26.5.1)(axios@1.18.1)(esbuild@0.28.1)(jiti@2.7.0)(postcss@8.5.28)(typescript@6.0.3)(yaml@2.9.0)
       vitepress-plugin-group-icons:
         specifier: ^1.7.6
-        version: 1.7.6(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+        version: 1.7.6(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       vue:
         specifier: ^3.5.42
         version: 3.5.42(typescript@6.0.3)
@@ -1402,8 +1402,8 @@ packages:
   '@types/mdurl@2.0.0':
     resolution: {integrity: sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg==}
 
-  '@types/node@26.1.2':
-    resolution: {integrity: sha512-Vu4a5UFA9rIIFJ7rB/Vaafh9lrCQszopTCx6KjFboXTGQbPNasehVR5TEiithSDGyd1DEiUByggTZsg8jukeIg==}
+  '@types/node@26.5.1':
+    resolution: {integrity: sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -3089,8 +3089,8 @@ packages:
   underscore@1.13.8:
     resolution: {integrity: sha512-DXtD3ZtEQzc7M8m4cXotyHR+FAS18C64asBYY5vqZexfYryNNnDc02W4hKg3rdQuqOYas1jkseX0+nZXjTXnvQ==}
 
-  undici-types@8.3.0:
-    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   undici@8.9.0:
     resolution: {integrity: sha512-aWZpUj7XoGonMClx4gdDRfgBjqeA+F473aDmROQQbM9n6PRfK/u1q/a0X4wMTgcHfT8H6fpbt98PFuDUwFg2YA==}
@@ -3628,12 +3628,12 @@ snapshots:
     dependencies:
       css-tree: 3.2.1
 
-  '@commitlint/cli@21.2.1(@types/node@26.1.2)(conventional-commits-parser@7.1.1)(typescript@6.0.3)':
+  '@commitlint/cli@21.2.1(@types/node@26.5.1)(conventional-commits-parser@7.1.1)(typescript@6.0.3)':
     dependencies:
       '@commitlint/config-conventional': 21.2.2
       '@commitlint/format': 21.2.0
       '@commitlint/lint': 21.2.0
-      '@commitlint/load': 21.2.0(@types/node@26.1.2)(typescript@6.0.3)
+      '@commitlint/load': 21.2.0(@types/node@26.5.1)(typescript@6.0.3)
       '@commitlint/read': 21.2.1(conventional-commits-parser@7.1.1)
       '@commitlint/types': 21.2.0
       tinyexec: 1.2.4
@@ -3678,14 +3678,14 @@ snapshots:
       '@commitlint/rules': 21.2.0
       '@commitlint/types': 21.2.0
 
-  '@commitlint/load@21.2.0(@types/node@26.1.2)(typescript@6.0.3)':
+  '@commitlint/load@21.2.0(@types/node@26.5.1)(typescript@6.0.3)':
     dependencies:
       '@commitlint/config-validator': 21.2.0
       '@commitlint/execute-rule': 21.0.1
       '@commitlint/resolve-extends': 21.2.0
       '@commitlint/types': 21.2.0
       cosmiconfig: 9.0.2(typescript@6.0.3)
-      cosmiconfig-typescript-loader: 6.3.0(@types/node@26.1.2)(cosmiconfig@9.0.2(typescript@6.0.3))(typescript@6.0.3)
+      cosmiconfig-typescript-loader: 6.3.0(@types/node@26.5.1)(cosmiconfig@9.0.2(typescript@6.0.3))(typescript@6.0.3)
       es-toolkit: 1.50.0
       is-plain-obj: 4.1.0
       picocolors: 1.1.1
@@ -3879,122 +3879,122 @@ snapshots:
 
   '@inquirer/ansi@2.0.7': {}
 
-  '@inquirer/checkbox@5.2.2(@types/node@26.1.2)':
+  '@inquirer/checkbox@5.2.2(@types/node@26.5.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
       '@inquirer/figures': 2.0.8
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/confirm@6.2.0(@types/node@26.1.2)':
+  '@inquirer/confirm@6.2.0(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/core@12.0.0(@types/node@26.1.2)':
+  '@inquirer/core@12.0.0(@types/node@26.5.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
       '@inquirer/figures': 2.0.8
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
       cli-width: 4.1.0
       fast-wrap-ansi: 0.2.2
       mute-stream: 3.0.0
       signal-exit: 4.1.0
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/editor@5.3.0(@types/node@26.1.2)':
+  '@inquirer/editor@5.3.0(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/external-editor': 3.0.4(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/external-editor': 3.0.4(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/expand@5.1.2(@types/node@26.1.2)':
+  '@inquirer/expand@5.1.2(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/external-editor@3.0.4(@types/node@26.1.2)':
+  '@inquirer/external-editor@3.0.4(@types/node@26.5.1)':
     dependencies:
       chardet: 2.2.0
       iconv-lite: 0.7.3
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
   '@inquirer/figures@2.0.8': {}
 
-  '@inquirer/input@5.1.3(@types/node@26.1.2)':
+  '@inquirer/input@5.1.3(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/number@4.2.0(@types/node@26.1.2)':
+  '@inquirer/number@4.2.0(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/password@5.1.2(@types/node@26.1.2)':
-    dependencies:
-      '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
-    optionalDependencies:
-      '@types/node': 26.1.2
-
-  '@inquirer/prompts@8.6.0(@types/node@26.1.2)':
-    dependencies:
-      '@inquirer/checkbox': 5.2.2(@types/node@26.1.2)
-      '@inquirer/confirm': 6.2.0(@types/node@26.1.2)
-      '@inquirer/editor': 5.3.0(@types/node@26.1.2)
-      '@inquirer/expand': 5.1.2(@types/node@26.1.2)
-      '@inquirer/input': 5.1.3(@types/node@26.1.2)
-      '@inquirer/number': 4.2.0(@types/node@26.1.2)
-      '@inquirer/password': 5.1.2(@types/node@26.1.2)
-      '@inquirer/rawlist': 5.3.2(@types/node@26.1.2)
-      '@inquirer/search': 4.3.0(@types/node@26.1.2)
-      '@inquirer/select': 5.2.2(@types/node@26.1.2)
-    optionalDependencies:
-      '@types/node': 26.1.2
-
-  '@inquirer/rawlist@5.3.2(@types/node@26.1.2)':
-    dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
-    optionalDependencies:
-      '@types/node': 26.1.2
-
-  '@inquirer/search@4.3.0(@types/node@26.1.2)':
-    dependencies:
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/figures': 2.0.8
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
-    optionalDependencies:
-      '@types/node': 26.1.2
-
-  '@inquirer/select@5.2.2(@types/node@26.1.2)':
+  '@inquirer/password@5.1.2(@types/node@26.5.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 12.0.0(@types/node@26.1.2)
-      '@inquirer/figures': 2.0.8
-      '@inquirer/type': 4.0.7(@types/node@26.1.2)
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
 
-  '@inquirer/type@4.0.7(@types/node@26.1.2)':
+  '@inquirer/prompts@8.6.0(@types/node@26.5.1)':
+    dependencies:
+      '@inquirer/checkbox': 5.2.2(@types/node@26.5.1)
+      '@inquirer/confirm': 6.2.0(@types/node@26.5.1)
+      '@inquirer/editor': 5.3.0(@types/node@26.5.1)
+      '@inquirer/expand': 5.1.2(@types/node@26.5.1)
+      '@inquirer/input': 5.1.3(@types/node@26.5.1)
+      '@inquirer/number': 4.2.0(@types/node@26.5.1)
+      '@inquirer/password': 5.1.2(@types/node@26.5.1)
+      '@inquirer/rawlist': 5.3.2(@types/node@26.5.1)
+      '@inquirer/search': 4.3.0(@types/node@26.5.1)
+      '@inquirer/select': 5.2.2(@types/node@26.5.1)
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
+
+  '@inquirer/rawlist@5.3.2(@types/node@26.5.1)':
+    dependencies:
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
+    optionalDependencies:
+      '@types/node': 26.5.1
+
+  '@inquirer/search@4.3.0(@types/node@26.5.1)':
+    dependencies:
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/figures': 2.0.8
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
+    optionalDependencies:
+      '@types/node': 26.5.1
+
+  '@inquirer/select@5.2.2(@types/node@26.5.1)':
+    dependencies:
+      '@inquirer/ansi': 2.0.7
+      '@inquirer/core': 12.0.0(@types/node@26.5.1)
+      '@inquirer/figures': 2.0.8
+      '@inquirer/type': 4.0.7(@types/node@26.5.1)
+    optionalDependencies:
+      '@types/node': 26.5.1
+
+  '@inquirer/type@4.0.7(@types/node@26.5.1)':
+    optionalDependencies:
+      '@types/node': 26.5.1
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
@@ -4343,9 +4343,9 @@ snapshots:
       tslib: 2.8.1
       typed-inject: 5.0.0
 
-  '@stryker-mutator/core@10.0.0(@types/node@26.1.2)':
+  '@stryker-mutator/core@10.0.0(@types/node@26.5.1)':
     dependencies:
-      '@inquirer/prompts': 8.6.0(@types/node@26.1.2)
+      '@inquirer/prompts': 8.6.0(@types/node@26.5.1)
       '@stryker-mutator/api': 10.0.0
       '@stryker-mutator/instrumenter': 10.0.0
       '@stryker-mutator/util': 10.0.0
@@ -4393,14 +4393,14 @@ snapshots:
 
   '@stryker-mutator/util@10.0.0': {}
 
-  '@stryker-mutator/vitest-runner@10.0.0(@stryker-mutator/core@10.0.0(@types/node@26.1.2))(vitest@4.1.9)':
+  '@stryker-mutator/vitest-runner@10.0.0(@stryker-mutator/core@10.0.0(@types/node@26.5.1))(vitest@4.1.9)':
     dependencies:
       '@stryker-mutator/api': 10.0.0
-      '@stryker-mutator/core': 10.0.0(@types/node@26.1.2)
+      '@stryker-mutator/core': 10.0.0(@types/node@26.5.1)
       '@stryker-mutator/util': 10.0.0
       semver: 7.8.5
       tslib: 2.8.1
-      vitest: 4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      vitest: 4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
 
   '@testing-library/dom@10.4.1':
     dependencies:
@@ -4449,9 +4449,9 @@ snapshots:
 
   '@types/mdurl@2.0.0': {}
 
-  '@types/node@26.1.2':
+  '@types/node@26.5.1':
     dependencies:
-      undici-types: 8.3.0
+      undici-types: 8.9.0
 
   '@types/unist@3.0.3': {}
 
@@ -4490,34 +4490,34 @@ snapshots:
 
   '@ungap/structured-clone@1.3.2': {}
 
-  '@vitejs/plugin-vue@6.0.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))':
+  '@vitejs/plugin-vue@6.0.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
       vue: 3.5.42(typescript@6.0.3)
 
-  '@vitest/browser-preview@4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)':
+  '@vitest/browser-preview@4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)':
     dependencies:
       '@testing-library/dom': 10.4.1
       '@testing-library/user-event': 14.6.1(@testing-library/dom@10.4.1)
-      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
-      vitest: 4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
+      vitest: 4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - bufferutil
       - msw
       - utf-8-validate
       - vite
 
-  '@vitest/browser@4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)':
+  '@vitest/browser@4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)':
     dependencies:
       '@blazediff/core': 1.9.1
-      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       '@vitest/utils': 4.1.9
       magic-string: 0.30.21
       pngjs: 7.0.0
       sirv: 3.0.2
       tinyrainbow: 3.1.0
-      vitest: 4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      vitest: 4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
@@ -4537,9 +4537,9 @@ snapshots:
       obug: 2.1.3
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      vitest: 4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
     optionalDependencies:
-      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
 
   '@vitest/expect@4.1.9':
     dependencies:
@@ -4550,13 +4550,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))':
+  '@vitest/mocker@4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@vitest/spy': 4.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
 
   '@vitest/pretty-format@4.1.9':
     dependencies:
@@ -4582,14 +4582,14 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
 
-  '@voidzero-dev/vite-plus-core@0.2.2(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)':
+  '@voidzero-dev/vite-plus-core@0.2.2(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)':
     dependencies:
       '@oxc-project/runtime': 0.138.0
       '@oxc-project/types': 0.138.0
       lightningcss: 1.32.0
       postcss: 8.5.16
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
       esbuild: 0.28.1
       fsevents: 2.3.3
       jiti: 2.7.0
@@ -4934,9 +4934,9 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cosmiconfig-typescript-loader@6.3.0(@types/node@26.1.2)(cosmiconfig@9.0.2(typescript@6.0.3))(typescript@6.0.3):
+  cosmiconfig-typescript-loader@6.3.0(@types/node@26.5.1)(cosmiconfig@9.0.2(typescript@6.0.3))(typescript@6.0.3):
     dependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
       cosmiconfig: 9.0.2(typescript@6.0.3)
       jiti: 2.6.1
       typescript: 6.0.3
@@ -5617,7 +5617,7 @@ snapshots:
       '@oxc-minify/binding-win32-ia32-msvc': 0.144.0
       '@oxc-minify/binding-win32-x64-msvc': 0.144.0
 
-  oxfmt@0.57.0(vite-plus@0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
+  oxfmt@0.57.0(vite-plus@0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
     dependencies:
       tinypool: 2.1.0
     optionalDependencies:
@@ -5640,7 +5640,7 @@ snapshots:
       '@oxfmt/binding-win32-arm64-msvc': 0.57.0
       '@oxfmt/binding-win32-ia32-msvc': 0.57.0
       '@oxfmt/binding-win32-x64-msvc': 0.57.0
-      vite-plus: 0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
+      vite-plus: 0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
 
   oxlint-tsgolint@0.24.0:
     optionalDependencies:
@@ -5651,7 +5651,7 @@ snapshots:
       '@oxlint-tsgolint/win32-arm64': 0.24.0
       '@oxlint-tsgolint/win32-x64': 0.24.0
 
-  oxlint@1.72.0(oxlint-tsgolint@0.24.0)(vite-plus@0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
+  oxlint@1.72.0(oxlint-tsgolint@0.24.0)(vite-plus@0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)):
     optionalDependencies:
       '@oxlint/binding-android-arm-eabi': 1.72.0
       '@oxlint/binding-android-arm64': 1.72.0
@@ -5673,7 +5673,7 @@ snapshots:
       '@oxlint/binding-win32-ia32-msvc': 1.72.0
       '@oxlint/binding-win32-x64-msvc': 1.72.0
       oxlint-tsgolint: 0.24.0
-      vite-plus: 0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
+      vite-plus: 0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
 
   package-manager-detector@1.8.0: {}
 
@@ -6044,7 +6044,7 @@ snapshots:
 
   underscore@1.13.8: {}
 
-  undici-types@8.3.0: {}
+  undici-types@8.9.0: {}
 
   undici@8.9.0: {}
 
@@ -6091,24 +6091,24 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite-plus@0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
+  vite-plus@0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
     dependencies:
       '@oxc-project/types': 0.138.0
       '@oxlint/plugins': 1.68.0
-      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
-      '@vitest/browser-preview': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@vitest/browser': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@vitest/browser-preview': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
       '@vitest/expect': 4.1.9
-      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       '@vitest/pretty-format': 4.1.9
       '@vitest/runner': 4.1.9
       '@vitest/snapshot': 4.1.9
       '@vitest/spy': 4.1.9
       '@vitest/utils': 4.1.9
-      '@voidzero-dev/vite-plus-core': 0.2.2(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)
-      oxfmt: 0.57.0(vite-plus@0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
-      oxlint: 1.72.0(oxlint-tsgolint@0.24.0)(vite-plus@0.2.2(@types/node@26.1.2)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
+      '@voidzero-dev/vite-plus-core': 0.2.2(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)
+      oxfmt: 0.57.0(vite-plus@0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
+      oxlint: 1.72.0(oxlint-tsgolint@0.24.0)(vite-plus@0.2.2(@types/node@26.5.1)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(esbuild@0.28.1)(jiti@2.7.0)(jsdom@30.0.0)(typescript@6.0.3)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
       oxlint-tsgolint: 0.24.0
-      vitest: 4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      vitest: 4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
     optionalDependencies:
       '@voidzero-dev/vite-plus-darwin-arm64': 0.2.2
       '@voidzero-dev/vite-plus-darwin-x64': 0.2.2
@@ -6149,7 +6149,7 @@ snapshots:
       - vite
       - yaml
 
-  vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0):
+  vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -6157,21 +6157,21 @@ snapshots:
       rolldown: 1.2.8
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 26.1.2
+      '@types/node': 26.5.1
       esbuild: 0.28.1
       fsevents: 2.3.3
       jiti: 2.7.0
       yaml: 2.9.0
 
-  vitepress-plugin-group-icons@1.7.6(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)):
+  vitepress-plugin-group-icons@1.7.6(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@iconify-json/logos': 1.2.12
       '@iconify-json/vscode-icons': 1.2.68
       '@iconify/utils': 3.1.4
     optionalDependencies:
-      vite: 8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
 
-  vitepress@2.0.0-alpha.19(@types/node@26.1.2)(axios@1.18.1)(esbuild@0.28.1)(jiti@2.7.0)(postcss@8.5.28)(typescript@6.0.3)(yaml@2.9.0):
+  vitepress@2.0.0-alpha.19(@types/node@26.5.1)(axios@1.18.1)(esbuild@0.28.1)(jiti@2.7.0)(postcss@8.5.28)(typescript@6.0.3)(yaml@2.9.0):
     dependencies:
       '@docsearch/css': 4.7.0
       '@docsearch/js': 4.7.0
@@ -6181,7 +6181,7 @@ snapshots:
       '@shikijs/transformers': 4.4.3
       '@shikijs/types': 4.4.3
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 6.0.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
+      '@vitejs/plugin-vue': 6.0.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.42(typescript@6.0.3))
       '@vue/devtools-api': 8.2.1
       '@vue/shared': 3.5.40
       '@vueuse/core': 14.4.0(vue@3.5.42(typescript@6.0.3))
@@ -6190,7 +6190,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 4.4.3
-      vite: 8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
       vue: 3.5.42(typescript@6.0.3)
     optionalDependencies:
       postcss: 8.5.28
@@ -6220,10 +6220,10 @@ snapshots:
       - universal-cookie
       - yaml
 
-  vitest@4.1.9(@types/node@26.1.2)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)):
+  vitest@4.1.9(@types/node@26.5.1)(@vitest/browser-preview@4.1.9)(@vitest/coverage-v8@4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9))(jsdom@30.0.0)(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@vitest/expect': 4.1.9
-      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       '@vitest/pretty-format': 4.1.9
       '@vitest/runner': 4.1.9
       '@vitest/snapshot': 4.1.9
@@ -6240,11 +6240,11 @@ snapshots:
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      vite: 8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 26.1.2
-      '@vitest/browser-preview': 4.1.9(vite@8.3.0(@types/node@26.1.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
+      '@types/node': 26.5.1
+      '@vitest/browser-preview': 4.1.9(vite@8.3.0(@types/node@26.5.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(vitest@4.1.9)
       '@vitest/coverage-v8': 4.1.9(@vitest/browser@4.1.9)(vitest@4.1.9)
       jsdom: 30.0.0
     transitivePeerDependencies:
