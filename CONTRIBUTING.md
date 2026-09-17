@@ -12,6 +12,9 @@ The following scripts will help you on your daily basis.
 
 All code that's going to be published in the library is inside the `src` folder. Also, it's written in English, so let's try to keep it standardized.
 
+> [!Warning]
+> The CI pipeline runs SonarQube analysis and requires a `SONAR_TOKEN` secret to be configured in the repository settings. Without it, the `sonar` step of the workflow will fail.
+
 - Install dependencies:
 
 ```bash
