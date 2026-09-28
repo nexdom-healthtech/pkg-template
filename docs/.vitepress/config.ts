@@ -8,7 +8,9 @@ const currentYear = new Date().getFullYear();
 const currentYearText = currentYear > releaseYear ? `-${currentYear}` : "";
 
 // https://vitepress.dev/reference/site-config
-// @ts-expect-error https://github.com/vuejs/vitepress/issues/4202 (VitePress 2.0.0-alpha type inference issue)
+// @ts-expect-error TS2321: comparing this large inline config literal against defineConfig's
+// generic exceeds TypeScript's type-checker stack depth. Pinning the theme type explicitly
+// short-circuits the inference instead of letting it get inferred from the literal.
 export default defineConfig<DefaultTheme.Config>({
   lang: "pt-BR",
   title: "pkg-template | NEXDOM",
