@@ -22,3 +22,4 @@ docs/.vitepress/cache
 # stryker temp files
 .stryker-tmp
 reports
+.vitest/

@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import type { DefaultTheme } from "vitepress";
 import { groupIconMdPlugin, groupIconVitePlugin } from "vitepress-plugin-group-icons";
 
 const pkg = require("../../package.json");
@@ -7,7 +8,8 @@ const currentYear = new Date().getFullYear();
 const currentYearText = currentYear > releaseYear ? `-${currentYear}` : "";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+// @ts-expect-error https://github.com/vuejs/vitepress/issues/4202 (VitePress 2.0.0-alpha type inference issue)
+export default defineConfig<DefaultTheme.Config>({
   lang: "pt-BR",
   title: "pkg-template | NEXDOM",
   base: "/pkg-template/",
