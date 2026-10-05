@@ -59,7 +59,7 @@
     "conventional-changelog-conventionalcommits": "^9.3.1",
     "dependency-cruiser": "^18.1.0",
     "jsdom": "^30.0.0",
-    "oxc-minify": "^0.144.0",
+    "oxc-minify": "^0.152.0",
     "typescript": "^6.0.3",
     "vite-plus": "^1.0.0",
     "vitepress": "2.0.0-alpha.19",
