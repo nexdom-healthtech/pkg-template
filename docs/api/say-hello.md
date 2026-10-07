@@ -16,4 +16,4 @@ console.log(sayHello());
 
 ## Retorno
 
-- `void`
+- `string`
