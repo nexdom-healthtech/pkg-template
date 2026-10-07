@@ -25,11 +25,11 @@
 > And if you've no intention to use it inside GitHub, be aware that you'll have to rewrite the `.github` (workflows containing CI, CD and DependaBot, along with issue and PR templates) directory according to your tools.
 
 > [!Tip]
-> After copy this template to your project, update the `package.json` with your project information and links. Remember to search for those links in other files, to update them too.
+> After copying this template to your project, update the `package.json` with your project information and links. Remember to search for those links in other files, to update them too.
 >
-> Also, update this `README` describing your library features and how to use it.
+> Also, update this `README` describing your library features and how to use it, and follow the note at the top of [AGENTS.md](./AGENTS.md) to adapt the AI agents guidance (`AGENTS.md` and the `.claude` folder), which also refers to this template's package and repository.
 >
-> Before pushing changes to the `main` branch (through a `pull request`, since straight pushes must be forbidden), the author of the `push` mush have privileges enough to generate tags and release on GitHub.
+> Before pushing changes to the `main` branch (through a `pull request`, since straight pushes must be forbidden), the author of the `push` must have privileges enough to generate tags and release on GitHub.
 
 A template for creating NEXDOM flavor Node.js libraries **using Vite+ and TypeScript**.
 
